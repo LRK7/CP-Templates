@@ -8,7 +8,7 @@ vector<ll> spf_using_simple_sieve(ll n) {
     for (ll i = 2; i * i <= n; i++) {
         if (spf[i] == i) {
             for (ll j = i * i; j <= n; j += i)
-                if (spf[j] > i) {
+                if (spf[j] == i) {
                     spf[j] = i;
                 }
         }

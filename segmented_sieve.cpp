@@ -1,5 +1,3 @@
-typedef long long ll;
-
 // used for getting primes in a specific range L to R
 vector<bool> segmented_sieve(ll L, ll R) {
     ll lim = sqrt(R);

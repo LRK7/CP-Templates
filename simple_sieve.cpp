@@ -1,5 +1,3 @@
-typedef long long ll;
-
 vector<bool> simple_sieve(ll n) {
     vector<bool> is_prime(n + 1, true);
     is_prime[0] = is_prime[1] = false;

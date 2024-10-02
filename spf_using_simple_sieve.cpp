@@ -1,5 +1,3 @@
-typedef long long ll;
-
 vector<ll> spf_using_simple_sieve(ll n) {
     vector<ll> spf(n + 1, 0);
     for (int i = 1; i <= n; ++i) {
